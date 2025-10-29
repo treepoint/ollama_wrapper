@@ -1,0 +1,4 @@
+[
+    { "key": "OLLAMA_API_URL", "value": "http://localhost:11434" },
+    { "key": "DB_CACHE_PATH", "value": "./cache.db" }
+]
