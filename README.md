@@ -27,5 +27,5 @@ num_ctx = 3000
 system = "You are helpful and accurate assistant. You should to give adequate, meaningful and accurate answer to user query"
 prompt = "Скажи, сколько будет два плюс два?"
 
-response, debug_info = ollama_wrapper.request(prompt, model, system, num_ctx, options, save_to_cache = True)
+response = ollama_wrapper.request(prompt, model, system, num_ctx, options, save_to_cache = True)
 ```
